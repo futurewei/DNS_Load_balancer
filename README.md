@@ -10,7 +10,7 @@ Below is the initial stage where I lauched two servers on top. One load balancer
 
 
 
-Upon called the client.py, we just made a domain request to load balancer DNS. In our case, it sends the 'www.test.com' to DNS port.
+Upon calling the client.py, we just made a domain request to load balancer DNS. In our case, it sends the 'www.test.com' to DNS port.
 After confirming there's a IP mapping with the input Domain name, load balancer first direct this client to server1, which is at port 5000.  
 Server1 outputs the information it got, which includes time, sender IP, and request message. In real development, if there's a database connected, server1 would be able to actually process the request from client.
 
