@@ -22,5 +22,6 @@ Server1 outputs the information it got, which includes time, sender IP, and requ
 
 
 
-now 
+now we call client.py another time, which can be just another client sending a request to Load balancer DNS. Because of our Round Robin Algorithm, DNS will translate the domain name into server2's IP address, and leave server2 to handle the request.
+We see server2 also functions correctly.
 ![7e4a6280-a5d1-4055-b072-459b3f2bbc77](https://user-images.githubusercontent.com/13871858/28246401-cc5475b2-69cd-11e7-9f2c-ba42df780d51.png)
